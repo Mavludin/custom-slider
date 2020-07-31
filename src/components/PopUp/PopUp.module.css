@@ -1,0 +1,91 @@
+.PopUp {
+    position: fixed;
+    width: 900px;
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    padding: 20px 100px;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    box-shadow: 0px 22px 65px rgba(0, 0, 0, 0.0577729);
+    border-radius: 8px;
+}
+
+.Overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(1,1,1, 0.5);
+}
+
+.PopUp > button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: inherit;
+    font-size: 20px;
+}
+
+.PopUp h2, p {
+    margin: 15px 0;
+}
+
+.PopUp h2 {
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.PopUp p {
+    font-size: 21px;
+    line-height: 34px;
+}
+
+.PopUp > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px 0;
+}
+
+.PopUp form {
+    width: 300px;
+}
+
+.PopUp input {
+    width: 100%;
+}
+
+.PopUp > div div {
+    margin-bottom: 24px;
+}
+
+.PopUp input {
+    border-bottom: 1px solid rgba(15,15,15, 0.31);
+    font-size: 17px;
+    line-height: 35px;
+    color: #000000;
+}
+
+.PopUp input::placeholder {
+    opacity: 0.31;
+}
+
+.PopUp input:focus::placeholder {
+    color: transparent;
+}
+
+.PopUp form button {
+    width: 100%;
+}
+
+.PopUp form p {
+    width: 100%;
+    font-size: 12px;
+    line-height: 15px;
+    color: #7E7E7E;
+}

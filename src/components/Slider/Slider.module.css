@@ -1,0 +1,106 @@
+.Slider {
+    margin: 20px auto;
+    width: 920px;
+    background-color: white;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.150108);
+    border-radius: 3px;
+    position: relative;
+}
+
+.SliderImage, .SliderContent {
+    width: 100%;
+    position: relative;
+}
+
+.SliderImage > img {
+    width: 100%;
+}
+
+.Header, .Footer {
+    padding: 20px;
+}
+
+.Header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #969696;
+}
+
+.Header .Title {
+    display: flex;
+    align-items: center;
+}
+
+.Slider h2 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.Header span {
+    color: #969696;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 6px 0 6px 20px;
+    font-size: 22px;
+    margin-left: 25px;
+}
+
+.Footer {
+    display: flex;
+    align-items: center;
+}
+
+.Footer img {
+    border-radius: 50%;
+}
+
+.Agent {
+    width: 20%
+}
+
+.Agent p {
+    font-size: 13px;
+    line-height: 15px;
+    color: #969696;
+    margin-top: 10px;
+}
+
+.SliderContent .Footer .Description {
+    text-align: initial;
+    line-height: 24px;
+    width: 80%;
+    padding: 0 30px;
+    font-size: 18px;
+    margin-bottom: 14px
+}
+
+.ControlPanel {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.ControlPanel button {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.150108);
+    border-radius: 3px;
+}
+
+.Forward {
+    margin-right: -40px;
+}
+
+.Backwards {
+    margin-left: -40px;
+}
+
+.Backwards img {
+    transform: rotate(180deg);
+}

@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'Muller';
+    src: url('./assets/font/MullerMedium.eot');
+    src: local('Muller Medium'), local('./assets/font/MullerMedium'),
+        url('./assets/font/MullerMedium.eot?#iefix') format('embedded-opentype'),
+        url('./assets/font/MullerMedium.woff2') format('woff2'),
+        url('./assets/font/MullerMedium.woff') format('woff'),
+        url('./assets/font/MullerMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: url('./assets/font/MullerRegular.eot');
+    src: local('Muller Regular'), local('./assets/font/MullerRegular'),
+        url('./assets/font/MullerRegular.eot?#iefix') format('embedded-opentype'),
+        url('./assets/font/MullerRegular.woff2') format('woff2'),
+        url('./assets/font/MullerRegular.woff') format('woff'),
+        url('./assets/font/MullerRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: url('./assets/font/MullerHeavy.eot');
+    src: local('Muller Heavy'), local('./assets/font/MullerHeavy'),
+        url('./assets/font/MullerHeavy.eot?#iefix') format('embedded-opentype'),
+        url('./assets/font/MullerHeavy.woff2') format('woff2'),
+        url('./assets/font/MullerHeavy.woff') format('woff'),
+        url('./assets/font/MullerHeavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: url('./assets/font/MullerLight.eot');
+    src: local('Muller Light'), local('./assets/font/MullerLight'),
+        url('./assets/font/MullerLight.eot?#iefix') format('embedded-opentype'),
+        url('./assets/font/MullerLight.woff2') format('woff2'),
+        url('./assets/font/MullerLight.woff') format('woff'),
+        url('./assets/font/MullerLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: url('./assets/font/MullerBlack.eot');
+    src: local('Muller Black'), local('./assets/font/MullerBlack'),
+        url('./assets/font/MullerBlack.eot?#iefix') format('embedded-opentype'),
+        url('./assets/font/MullerBlack.woff2') format('woff2'),
+        url('./assets/font/MullerBlack.woff') format('woff'),
+        url('./assets/font/MullerBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: url('./assets/font/MullerBold.eot');
+    src: local('Muller Bold'), local('./assets/font/MullerBold'),
+        url('./assets/font/MullerBold.eot?#iefix') format('embedded-opentype'),
+        url('./assets/font/MullerBold.woff2') format('woff2'),
+        url('./assets/font/MullerBold.woff') format('woff'),
+        url('./assets/font/MullerBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: url('./assets/font/MullerExtraBold.eot');
+    src: local('Muller ExtraBold'), local('./assets/font/MullerExtraBold'),
+        url('./assets/font/MullerExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('./assets/font/MullerExtraBold.woff2') format('woff2'),
+        url('./assets/font/MullerExtraBold.woff') format('woff'),
+        url('./assets/font/MullerExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
