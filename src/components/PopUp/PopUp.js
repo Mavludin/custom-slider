@@ -5,7 +5,8 @@ import popUpImage from '../../assets/images/popup/popup-image.png';
 
 function PopUp(props) {
 
-    //Closing the pop-up on Escape button click
+    // Закрываем модальное окно нажатием на кнопку Escape. 
+    // Внизу учтены случаи закрытия при нажатии на Overlay и кнопку в виде крестика
     useEffect(() => {
         window.addEventListener('keyup', (event) => {
 
@@ -17,6 +18,7 @@ function PopUp(props) {
 
     return (
         <>
+
             <div onClick={() => props.showPopUp(false)} className={classes.Overlay}></div>
 
             <div className={classes.PopUp}>

@@ -6,16 +6,19 @@ import PopUp from '../PopUp/PopUp';
 
 function Slider() {
 
+    // Инициализируем начальный объект с данными для слайдера и флаг для показа или скрытия модального окна.
     const [currentSlide, setSlide] = useState(sliderData[0]);
     const [isPopUpVisible, showPopUp] = useState(false);
 
+    // Показываем следующий слайд.
     const showNextSlide = () => {
-        if (currentSlide.id === sliderData.length) return
+        if (currentSlide.id === sliderData.length) return false
         setSlide(sliderData[currentSlide.id])
     }
 
+    // Показываем предыдущий слайд.
     const showPreviousSlide = () => {
-        if (currentSlide.id === 1) return
+        if (currentSlide.id === 1) return false
         setSlide(sliderData[currentSlide.id - 2])
     }
 
@@ -25,7 +28,7 @@ function Slider() {
 
             <div className={classes.SliderImage}>
 
-                <img src={currentSlide.mainImage} alt="" />
+                <img src={currentSlide.mainImage} alt={currentSlide.title} />
 
                 <div className={classes.ControlPanel}>
 
@@ -53,7 +56,7 @@ function Slider() {
 
                 <div className={classes.Footer}>
                     <div className={classes.Agent}>
-                        <img src={currentSlide.agentImage} alt="" />
+                        <img src={currentSlide.agentImage} alt={currentSlide.agentName} />
                         <p>
                             {currentSlide.agentName},<br/>{currentSlide.agentRole}
                         </p>
